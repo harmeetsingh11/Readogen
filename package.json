@@ -1,0 +1,60 @@
+{
+  "name": "readogen",
+  "displayName": "Readogen",
+  "publisher": "Harmeet",
+  "description": "An AI based VSCode extension which generates readme.md files for your github projects.",
+
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "icon": "media/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harmeetsingh11/Readogen.git"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Readogen",
+      "properties": {
+        "readogen.apiKey": {
+          "type": "string",
+          "default": "",
+          "description": "OpenAI API Key"
+        }
+      }
+    },
+  
+    "commands": [
+      {
+        "command": "readogen.generateReadme",
+        "title": "Generate Readme for your project",
+        "category": "Readogen"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "pnpm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.85.0",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.5"
+  }
+}
