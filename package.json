@@ -3,7 +3,6 @@
   "displayName": "Readogen",
   "publisher": "Harmeet",
   "description": "An AI based VSCode extension which generates readme.md files for your github projects.",
-
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.85.0"
@@ -31,7 +30,6 @@
         }
       }
     },
-  
     "commands": [
       {
         "command": "readogen.generateReadme",
@@ -42,7 +40,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "pretest": "pnpm run lint",
+    "pretest": "npm run lint",
     "test": "vscode-test"
   },
   "devDependencies": {
@@ -51,6 +49,7 @@
     "@types/vscode": "^1.85.0",
     "@vscode/test-cli": "^0.0.4",
     "@vscode/test-electron": "^2.3.8",
+    "esbuild": "^0.19.11",
     "eslint": "^8.56.0",
     "typescript": "^5.3.3"
   },
