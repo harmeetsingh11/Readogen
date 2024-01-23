@@ -2,6 +2,11 @@
 
 Readogen is an AI-based VSCode extension that leverages the power of the GPT-3.5-turbo OpenAI model to effortlessly generate README.md files for your GitHub projects. Say goodbye to manual writing and tedious documentation—let Readogen handle it for you!
 
+## 💻 Demo
+
+
+https://github.com/harmeetsingh11/Readogen/assets/130365071/b94aeac4-f690-4bcc-b446-46a0b5e86036
+
 ## 🌟 Features and Benefits
 
 ### 1. **AI-Powered Readme Generation**
@@ -40,5 +45,6 @@ Readogen is an AI-based VSCode extension that leverages the power of the GPT-3.5
 
 5. **Generate Readme**
    - Sit back and relax as Readogen swiftly generates a README.md file with all the necessary information and badges.
+
 
 With Readogen, documentation becomes a breeze, allowing you to focus more on coding and less on writing lengthy project descriptions. Let the AI revolutionize your readme creation process!
