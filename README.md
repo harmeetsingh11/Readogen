@@ -8,9 +8,9 @@ Readogen is an AI-based VSCode extension that leverages the power of the GPT-3.5
 
 ## 🔗 Table of Contents
 
-- [Demo Video](#demo-video)
-- [Features and Benefits](#features-and-benefits) 
-- [Usage Instructions](#usage-instructions)
+- [💻 Demo Video](#demo-video)
+- [🌟 Features and Benefits](#features-and-benefits) 
+- [📖 Usage Instructions](#usage-instructions)
 
 ## 💻 Demo Video
 
