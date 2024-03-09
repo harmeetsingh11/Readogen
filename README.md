@@ -1,6 +1,6 @@
 # 🚀 [Readogen - AI Readme Generator (VSCode Extension)](https://marketplace.visualstudio.com/items?itemName=Harmeet.readogen)
 
-Readogen is an AI-based VSCode extension that leverages the power of the OpenAI model to effortlessly generate README.md files for your GitHub projects. Say goodbye to manual writing and tedious documentation—let Readogen handle it for you!
+Readogen is an AI-based VSCode extension that leverages the power of OpenAI model to effortlessly generate README.md files for your GitHub projects. Say goodbye to manual writing and tedious documentation—let Readogen handle it for you!
 
 
 ![extension](https://github.com/harmeetsingh11/Readogen/assets/130365071/a8d6827b-6686-4069-ac38-f658e593ebcc)
